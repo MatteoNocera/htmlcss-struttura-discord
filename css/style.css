@@ -87,7 +87,7 @@ header {
     padding-bottom: 2rem;
 }
 
-.light {
+.light, .final_sec {
     background-color: var(--dis-light);
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -119,6 +119,11 @@ header {
 .card {
     height: 100%;
     background-color: var(--dis-card);
+}
+
+.final_cont {
+    background-color: var(--dis-cont);
+    height: 600px;
 }
 
 /* #endregion Main */
