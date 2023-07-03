@@ -80,8 +80,17 @@ header {
 
 /* #endregion Head_img */
 
+/* #region Main */
+
 .white {
     background-color: var(--dis-white);
+    padding-bottom: 2rem;
+}
+
+.light {
+    background-color: var(--dis-light);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .sect_cont {
@@ -112,3 +121,4 @@ header {
     background-color: var(--dis-card);
 }
 
+/* #endregion Main */
