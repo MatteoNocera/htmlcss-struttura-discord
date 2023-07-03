@@ -135,9 +135,6 @@ header {
     height: 400px;
 }
 
-h2 {
-    display: none;
-}
 
 .foot_row {
     background-color: var(--dis-row);
