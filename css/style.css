@@ -1,6 +1,56 @@
+/* #region Common */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root {
+    --dis-light: #D8D9DB;
+    --dis-dark: #BCBCBE;
+    --dis-col_head: #D9817D;
+    --dis-back-img: #95A8E3;
+    --dis-cont: #FBDB9E;
+    --dis-row: #CEC2AA;
+    --dis-col_main: #8FE2AA;
+    --dis-card: #85C0C6;
+    --dis-white: #F9F9F9;
+    --dis-foot: #4574FE;
+}
+
+.debug_head{
+    height: 75px;
+}
+.container {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+    background-color: var(--dis-dark)
+}
+
+/* #endregion Common */
+
+/* #region Header */
+header {
+    background-color: var(--dis-light);
+}
+
+.row {
+    padding: 1rem;
+    display: flex;
+    height: 100%;
+}
+
+.col_head {
+    background-color: var(--dis-col_head);
+    height: 100%;
+}
+
+.lateral {
+    width: calc(100% / 12 * 2);
+}
+
+.central {
+    width: calc(100% / 12 * 8);
+}
+/* #endregion Header */
