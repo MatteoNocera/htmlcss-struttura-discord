@@ -31,6 +31,7 @@
 /* #endregion Common */
 
 /* #region Header */
+
 header {
     background-color: var(--dis-light);
 }
@@ -54,3 +55,17 @@ header {
     width: calc(100% / 12 * 8);
 }
 /* #endregion Header */
+
+.head_img {
+    background-color: var(--dis-back-img);
+    height: 300px;
+    width: 100%;
+    padding: 2rem;
+}
+
+.principal {
+    width: 50%;
+    background-color: var(--dis-dark);
+    height: 75%;
+    margin: 0 auto;
+}   
